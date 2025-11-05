@@ -1,6 +1,21 @@
 body{
 font-family: arial;
+margin-left: 30px;
+margin-top: 25px;
 
+}
+.outer-container{
+    border: solid;
+    border-width: 2px;
+    background-color: pink;
+    padding: 10px 8px;
+    width: 400px;
+
+}
+.main-heading{
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
 }
 .add{
     background-color: green;
@@ -15,6 +30,7 @@ font-family: arial;
     grid-template-columns: 150px 100px 100px;
     column-gap: 10px;
     row-gap: 10px;
+
 }
 .todo-input-grid{
     margin-bottom: 10px;
@@ -24,6 +40,8 @@ font-family: arial;
 .date-input{
     padding: 6px;
     font: 12px;
+    background-color: #63d8ff;
+    color: black;
 }
 
 .delete-button{
@@ -31,4 +49,7 @@ font-family: arial;
     border: none;
     color: white;
     padding: 5px 10px;
+}
+.todo-input::placeholder{
+    color: black;
 }

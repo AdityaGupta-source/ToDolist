@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="todoliststyle.css">
   </head>
   <body>
-    <p>Todo list</p>
+    <div class = outer-container>
+    <p class="main-heading">Todo list</p>
     <div class="todo-input-grid">
     <input
-      placeholder="Add Todo"
+      placeholder="Add Todo "
       class="js-todo-input todo-input"
       onkeydown="keydownlog()"
     />
@@ -18,6 +19,7 @@
     <button onclick="todolog() " class="add">add</button>
     </div>
     <div class="js-todo-display todo-grid"></div>
+    </div>
     <script src="todolistscript.js"> </script>
   </body>
 </html>
