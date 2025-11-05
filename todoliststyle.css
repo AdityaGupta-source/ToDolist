@@ -27,7 +27,7 @@ margin-top: 25px;
 .todo-grid,
 .todo-input-grid{
     display: grid;
-    grid-template-columns: 150px 100px 100px;
+    grid-template-columns: 150px 110px 100px;
     column-gap: 10px;
     row-gap: 10px;
 
